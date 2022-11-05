@@ -42,8 +42,18 @@ h2 {
     /* border: 1px solid black; */
     /* border-top: none; */
     margin: 0 auto;
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
+    background-color: whitesmoke;
+}
+
+#certificates {
+    /* border: 1px solid black; */
+    /* border-top: none; */
+    margin: 0 auto;
+    /* width: 50%; */
+    text-align: center;
+    background-color: lightcyan;
 }
 
 #view-more a {
