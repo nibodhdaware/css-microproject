@@ -12,7 +12,7 @@ body {
     padding-left: 10px;
 }
 
-img {
+.about img {
     /* border: 1px solid black; */
     margin: 10px;
     padding-top: 20px;
@@ -111,4 +111,27 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#cert {
+    display: none;
+}
+
+#containerCat {
+    /* display: grid; */
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* gap: 45px 53px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "cat1 cat2 cat3"
+        "cat4 cat5 cat6"
+        "cat7 cat8 cat9"
+        ". . ."; */
+}
+
+.image {
+    padding: 20px;
+    width: 85%;
 }
