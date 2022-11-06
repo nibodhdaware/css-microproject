@@ -1,3 +1,4 @@
+<!-- http://127.0.0.1:5500/index.html -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -37,6 +38,15 @@
             </div>
             <div id="view-more">
                 <a onclick="showMore()">Show More</a>
+            </div>
+            <div id="view-less">
+                <a onclick="showLess()">Show Less</a>
+            </div>
+            <div id="show-certificates">
+                <a onclick="showCert()">Show Certificates</a>
+            </div>
+            <div id="hide-certificates">
+                <a onclick="hideCert()">Hide Certificates</a>
             </div>
         </div>
         <div id="sect">
@@ -205,8 +215,14 @@
         </div>
         <script>
             function showMore() {
-                var section = document.getElementsById("sect");
-                section.style.display = "block";
+                document.getElementById("sect").style.display = "block";
+                document.getElementById("view-more").style.display = "none";
+                document.getElementById("view-less").style.display = "block";
+            }
+            function showLess() {
+                document.getElementById("sect").style.display = "none";
+                document.getElementById("view-more").style.display = "block";
+                document.getElementById("view-less").style.display = "none";
             }
         </script>
     </body>
