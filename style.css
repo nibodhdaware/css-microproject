@@ -45,6 +45,18 @@ h2 {
     /* width: 50%; */
     text-align: center;
     background-color: whitesmoke;
+<<<<<<< HEAD
+=======
+}
+
+#certificates {
+    /* border: 1px solid black; */
+    /* border-top: none; */
+    margin: 0 auto;
+    /* width: 50%; */
+    text-align: center;
+    background-color: lightcyan;
+>>>>>>> refs/remotes/css-microproject/main
 }
 
 #view-more a {
