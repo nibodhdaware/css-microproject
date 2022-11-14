@@ -1,146 +1,40 @@
+#nav a {
+    color: aqua;
+}
+
+#nav {
+    border-left: 0.3rem solid aqua;
+    border-bottom: 0.2rem solid aqua;
+    /* box-shadow: 5px black; */
+    height: 5rem;
+}
+
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: wheat;
+    background: rgb(2, 9, 18);
+    background: radial-gradient(
+        circle,
+        rgba(2, 9, 18, 1) 0%,
+        rgba(0, 39, 51, 1) 97%
+    );
+    color: wheat !important;
 }
 
-.section-name {
-    display: flex;
-    justify-content: center;
-}
-
-.details {
-    padding-left: 10px;
-}
-
-.about img {
-    /* border: 1px solid black; */
-    margin: 10px;
-    padding-top: 20px;
-    padding-left: 262px;
-    float: initial;
-}
-
-h2 span {
-    font-size: 20px;
-    font-weight: thin;
-}
-
-h2 {
-    font-size: 25px;
-    padding: 2px;
-    text-align: center;
+.clg-pic {
+    width: 50em;
 }
 
 .about {
-    border: 1px solid black;
-    margin: 0 auto;
     width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: 1px solid black;
+    align-items: center;
 }
 
-#view-more {
-    /* border: 1px solid black; */
-    /* border-top: none; */
-    margin: 0 auto;
-    /* width: 50%; */
-    text-align: center;
-    background-color: whitesmoke;
-}
-
-#certificates {
-    /* border: 1px solid black; */
-    /* border-top: none; */
-    margin: 0 auto;
-    /* width: 50%; */
-    text-align: center;
-    background-color: lightcyan;
-}
-
-#view-more a {
-    cursor: pointer;
-}
-
-#view-less {
-    /* border: 1px solid black; */
-    /* border-top: none; */
-    margin: 0 auto;
-    /* width: 50%; */
-    display: none;
-    text-align: center;
-    background-color: whitesmoke;
-}
-
-#view-less a {
-    cursor: pointer;
-}
-
-#show-certificates {
-    margin: 0 auto;
-    /* width: 50%; */
-    text-align: center;
-    background-color: lightcyan;
-}
-
-#show-certificates a {
-    cursor: pointer;
-}
-
-#hide-certificates {
-    margin: 0 auto;
-    /* width: 50%; */
-    display: none;
-    text-align: center;
-    background-color: lightcyan;
-}
-
-#hide-certificates a {
-    cursor: pointer;
-}
-
-#sect {
-    display: none;
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: 0 auto;
-    width: 100vw;
-
-    text-align: center;
-    padding: 5px;
-}
-
-a {
+.about a {
     text-decoration: none;
-    color: black;
+    color: wheat;
 }
 
-a:hover {
+.about a:hover {
     text-decoration: underline;
-}
-
-#cert {
-    display: none;
-}
-
-#containerCat {
-    /* display: grid; */
-    display: none;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    /* gap: 45px 53px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "cat1 cat2 cat3"
-        "cat4 cat5 cat6"
-        "cat7 cat8 cat9"
-        ". . ."; */
-}
-
-.image {
-    padding: 20px;
-    width: 85%;
+    color: wheat;
 }
